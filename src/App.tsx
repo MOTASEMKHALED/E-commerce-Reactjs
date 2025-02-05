@@ -1,15 +1,15 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import AddProduct from './components/AddProduct';
-import ViewProducts from './components/ViewProducts';
+import AddProduct from './pages/AddProduct';
+import ViewProducts from './pages/ViewProducts';
 import Home from './components/Home';
 import Header from './components/Header';
-import LoginForm from './components/Login';
+import LoginForm from './pages/Login';
 import Products from './components/Products';
 import ProductDetail from './components/ProductDetails';
-import ShoppingCart from './components/ShoppingCart';
-import ChatApp from './components/Message';
-import Checkout from './components/checkout';
-import UpdateProduct from './components/UpdateProduct';
+import ShoppingCart from './pages/ShoppingCart';
+import ChatApp from './pages/Message';
+import Checkout from './pages/checkout';
+import UpdateProduct from './pages/UpdateProduct';
 function App() {
   return (
     <Router>
